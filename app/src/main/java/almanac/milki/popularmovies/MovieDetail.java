@@ -22,7 +22,7 @@ public class MovieDetail extends AppCompatActivity {
 int pos;
     String url;
     String first="https://api.themoviedb.org/3/movie/";
-    String end="?api_key=a9921873d439557b59941c8130548062",full;
+    String end="?api_key=",full;
     RequestQueue requestQueue;
     TextView tt,reld,agr,ovw;
     ImageView backd;
