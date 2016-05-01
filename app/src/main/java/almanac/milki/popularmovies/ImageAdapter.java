@@ -26,7 +26,7 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     RequestQueue requestQueue;
 String s1="https://api.themoviedb.org/3/movie/",add1;
-    String s2="?api_key=a9921873d439557b59941c8130548062",fullurl;
+    String s2="?api_key=",fullurl;
     String[] add2=new String[40];
      public void json(String s){
          fullurl=s1+s+s2;
